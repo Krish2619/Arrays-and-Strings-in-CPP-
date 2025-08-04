@@ -1,0 +1,29 @@
+// Krishna Chhabaria
+// 24070123149
+// B3
+#include <iostream>
+using namespace std ;
+int main(){
+    int b;
+    cout<<"enter the number of elements : ";
+    cin>>b;
+    int a[b];
+     int o= sizeof(a)/sizeof(int);
+    for (int i=0;i<o;i++){
+         cout<<"enter the elements "<<i+1<<endl;
+    cin >> a[i];}
+    cout<<"elements are : ";
+    for(int i=0;i<o;i++){
+    cout <<a[i]<<" ";}
+return 0;
+}
+
+/*Output:
+enter the number of elements : 3
+enter the elements 1
+2
+enter the elements 2
+6
+enter the elements 3
+9
+elements are : 2 6 9 */
